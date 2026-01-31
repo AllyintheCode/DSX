@@ -1,17 +1,14 @@
-import React from 'react'
-import './index.css'
-import Navbar from './Components/Navbar'
-import Header from './Components/Header'
-import Footer from './Components/Footer'
+import React from "react";
+import "./index.css";
+
+import AmmoCalculator from "./Components/AmmoCalculator";
 
 const App = () => {
   return (
-    <div className='max-w-[1400px] mx-auto px-4'>
-      <Navbar />
-      <Header />
-      <Footer />
+    <div className="max-w-[1400px] mx-auto px-4">
+      <AmmoCalculator />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
